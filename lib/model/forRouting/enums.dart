@@ -1,0 +1,1 @@
+enum OtpForType {Signup, ResetPassword, ChangeNumber}

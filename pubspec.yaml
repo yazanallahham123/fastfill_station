@@ -1,0 +1,106 @@
+name: fastfill_station_app
+description: Fastfuel Fill Station App.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.32+1.0.32
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  shared_preferences: ^2.0.15
+  flutter_bloc: ^8.1.1
+  retrofit: ^3.3.1
+  equatable: ^2.0.5
+  dio: ^4.0.6
+  http: ^0.13.5
+  flutter_svg: ^1.1.6
+  intl: ^0.17.0
+  fluttertoast: ^8.1.2
+  flutter_dialogs: ^3.0.0
+  firebase_messaging: ^14.2.1
+  firebase_core: ^2.4.1
+  logger: ^1.1.0
+  cupertino_icons: ^1.0.5
+  flutter_translate: ^4.0.3
+  get: ^4.6.5
+  url_launcher: ^6.1.7
+  keyboard_actions: ^4.1.0
+  flutter_datetime_picker: ^1.5.1
+  auto_size_text: ^3.0.0
+  package_info_plus: ^3.0.2
+  flutter_downloader: ^1.9.1
+  path_provider: ^2.0.11
+  pinput: ^2.2.14
+  flutter_local_notifications: ^13.0.0
+  open_filex: ^4.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.5.4
+  retrofit_generator: ^4.2.0
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/i18n/
+    - assets/svg/
+    - assets/placeholder/
+
+  fonts:
+    - family: Markazi
+      fonts:
+        - asset: fonts/markazi/MarkaziText-Bold.ttf
+        - asset: fonts/markazi/MarkaziText-Medium.ttf
+        - asset: fonts/markazi/MarkaziText-Regular.ttf
+        - asset: fonts/markazi/MarkaziText-SemiBold.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/poppins/Poppins-Black.ttf
+        - asset: fonts/poppins/Poppins-BlackItalic.ttf
+        - asset: fonts/poppins/Poppins-Bold.ttf
+        - asset: fonts/poppins/Poppins-BoldItalic.ttf
+        - asset: fonts/poppins/Poppins-ExtraBold.ttf
+        - asset: fonts/poppins/Poppins-ExtraBoldItalic.ttf
+        - asset: fonts/poppins/Poppins-ExtraLight.ttf
+        - asset: fonts/poppins/Poppins-ExtraLightItalic.ttf
+        - asset: fonts/poppins/Poppins-Italic.ttf
+        - asset: fonts/poppins/Poppins-Light.ttf
+        - asset: fonts/poppins/Poppins-LightItalic.ttf
+        - asset: fonts/poppins/Poppins-Medium.ttf
+        - asset: fonts/poppins/Poppins-MediumItalic.ttf
+        - asset: fonts/poppins/Poppins-Regular.ttf
+        - asset: fonts/poppins/Poppins-SemiBold.ttf
+        - asset: fonts/poppins/Poppins-SemiBoldItalic.ttf
+        - asset: fonts/poppins/Poppins-Thin.ttf
+        - asset: fonts/poppins/Poppins-ThinItalic.ttf
